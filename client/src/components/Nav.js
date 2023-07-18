@@ -5,10 +5,10 @@ const Nav = (props) => {
     return(
         <div>
             <nav>
-                <Link to={'/artists'}>Artists</Link>
-                <Link to={'/songs'}>Songs</Link>
-                <Link to={'/albums'}>Albums</Link>
-                <Link to={'/genres'}>Genres</Link>
+                <Link to={'/artists'} className="btn btn-info m-5">Artists</Link>
+                <Link to={'/songs'} className="btn btn-info m-5">Songs</Link>
+                <Link to={'/albums'} className="btn btn-info m-5">Albums</Link>
+                <Link to={'/genres'} className="btn btn-info m-5">Genres</Link>
             </nav>
         </div>
     )
