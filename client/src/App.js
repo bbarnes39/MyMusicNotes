@@ -16,7 +16,7 @@ function App() {
   const [trackReview, setTrackReview] = useState([])
 
   return (
-    <div className="App bg-success bg-gradient">
+    <div className="App h-100 bg-success bg-gradient">
       <h1>MyMusicNotes</h1>
       {/* <Nav /> */}
       <Routes>
